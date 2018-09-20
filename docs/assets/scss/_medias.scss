@@ -1,0 +1,228 @@
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .about-box {
+        top: 19rem;
+    }
+    .star-3 {
+        right: 9rem;
+    }
+    .cookie-pic-3 {
+        left: 0rem;
+    }
+    .heading-services {
+        left: -8.5rem;
+    }
+    .paragraph-about {
+        padding-top: 1rem;
+    }
+    .section-services {
+        height: 125vh;
+    }
+    .section-menu {
+        height: 125vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 110vh);
+    }
+    .section-details {
+        height: 120vh;
+    }
+}
+@media only screen and (min-width : 650px) {
+    .heading-primary {
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-48%, -50%);
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    html {
+    font-size: 80%;
+    }
+    .cookie-pic-2 {
+        left: 17rem;
+    }
+    .cookie-pic-3 {
+        left: -5rem;
+    }
+    .cookie-pic-4 {
+        left: 16rem;
+    }
+    .star-2 {
+        right: -16rem;
+    }
+    .star-8 {
+        right: 14rem;
+    }
+    .heading-primary {
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-48%, -50%);
+    }
+    .section-menu {
+        height: 105vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 90vh);
+    }
+    .heading-about {
+        right: -11rem;
+    }
+    .paragraph-about {
+        top: 3rem;
+    }
+    .star-3 {
+        right: 15rem;
+
+    }
+    .star-5 {
+        right: 15rem;
+
+    }
+    .star-7 {
+        right: -14rem;
+    }
+    .heading-services {
+        left: -11.5rem;
+    }
+    .star-4,
+    .star-6 {
+        right: -18rem;
+    }
+    .heading-tertiary-1,
+    .heading-tertiary-3  {
+        right: -12.5rem;
+    }
+    .heading-tertiary-2 {
+        right: 9.5rem;
+    }
+    .menu-box {
+        padding: 0 1.5rem;
+        top: -17rem;
+    }
+    .heading-menu {
+        left: 7.5rem;
+    }
+    .heading-location {
+        left: -9rem;
+    }
+    .heading-follow {
+        left: 10.5rem;
+    }
+    .fab {
+        top: 3rem;
+        left: -3rem;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    html {
+    font-size: 85%;
+    }
+    .cookie-pic-3 {
+        left: -11rem;
+    }
+    .cookie-pic-4 {
+        left: 22rem;
+    }
+    .star-3{
+        right: 20rem;
+    }
+    .star-5{
+        right: 20rem;
+    }
+    .star-7 {
+        right: -20rem;
+    }
+    .heading-menu {
+        left: 11.5rem;
+    }
+    .heading-services {
+        left: -17.5rem;
+    }
+    .heading-tertiary-2 {
+        right: 16.5rem;
+    }
+    .heading-location {
+        left: -15rem;
+    }
+    .heading-follow {
+        left: 10.5rem;
+    }
+    .fab {
+        top: 4rem;
+        left: -3rem;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1440px) {
+    html {
+    font-size: 100%;
+    }
+    .cookie-pic-2 {
+        left: 26rem;
+    }
+    .cookie-pic-3 {
+        left: -18rem;
+    }
+    .cookie-pic-4 {
+        left: 29rem;
+    }
+    .heading-primary--2 {
+        top: 9rem;
+    }
+    .star-2{
+        right: -25rem;
+    }
+    .star-8 {
+        right: 25rem;
+    }
+    .heading-about {
+        right: -20rem;
+    }
+    .paragraph-about,
+    .paragraph {
+        padding: 0 14rem;
+    }
+    .star-3{
+        right: 27rem;
+    }
+    .star-5 {
+        right: 27rem;
+    }
+    .star-7 {
+        right: -27rem;
+    }
+    .star-9 {
+        right: -17rem;
+    }
+    .heading-services {
+        left: -23.5rem;
+    }
+    .heading-tertiary-2 {
+        right: 23.5rem;
+    }
+    .section-menu {
+        height: 125vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 110vh);
+    }
+    .heading-menu {
+        left: 16.5rem;
+    }
+    .heading-location {
+        left: -21rem;
+    }
+    .heading-follow {
+        left: 14.5rem;
+    }
+    .section-details {
+        height: 130vh;
+    }
+}
+@media only screen and (min-width : 2560px) {
+    html {
+        font-size: 150%;
+    }
+    .heading-primary--2 {
+        top: 11rem;
+    }
+}
