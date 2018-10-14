@@ -61,8 +61,8 @@
         transform: translate(-48%, -50%);
     }
     .section-menu {
-        height: 105vh;
-        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 90vh);
+        height: 125vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100vh);
     }
     .heading-about {
         right: -11rem;
@@ -72,7 +72,6 @@
     }
     .star-3 {
         right: 15rem;
-
     }
     .star-5 {
         right: 15rem;
@@ -112,17 +111,26 @@
         top: 3rem;
         left: -3rem;
     }
+    .section-details {
+        height: 130vh;
+    }
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     html {
     font-size: 85%;
     }
+    .cookie-pic-2 {
+        top: -2rem;
+    }
     .cookie-pic-3 {
         left: -11rem;
     }
     .cookie-pic-4 {
         left: 22rem;
+    }
+    .star-2 {
+        top: -8rem;
     }
     .star-3{
         right: 20rem;
@@ -133,8 +141,18 @@
     .star-7 {
         right: -20rem;
     }
+    .section-about {
+        height: 125vh;
+    }
+    .section-menu {
+        height: 130vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 105vh);
+    }
     .heading-menu {
         left: 11.5rem;
+    }
+    .section-services {
+        height: 133vh;
     }
     .heading-services {
         left: -17.5rem;
@@ -151,6 +169,9 @@
     .fab {
         top: 4rem;
         left: -3rem;
+    }
+    .section-details {
+        height: 145vh;
     }
 }
 /* Large Devices, Wide Screens */
@@ -176,6 +197,10 @@
     .star-8 {
         right: 25rem;
     }
+    .section-about {
+        height: 115vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 90vh);
+    }
     .heading-about {
         right: -20rem;
     }
@@ -195,6 +220,9 @@
     .star-9 {
         right: -17rem;
     }
+    .section-services {
+        height: 120vh;
+    }
     .heading-services {
         left: -23.5rem;
     }
@@ -202,8 +230,8 @@
         right: 23.5rem;
     }
     .section-menu {
-        height: 125vh;
-        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 110vh);
+        height: 120vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 95vh);
     }
     .heading-menu {
         left: 16.5rem;
@@ -215,7 +243,7 @@
         left: 14.5rem;
     }
     .section-details {
-        height: 130vh;
+        height: 125vh;
     }
 }
 @media only screen and (min-width : 2560px) {
@@ -224,5 +252,19 @@
     }
     .heading-primary--2 {
         top: 11rem;
+    }
+    .section-about {
+        height: 120vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 95vh);
+    }
+    .section-services {
+        height: 125vh;
+    }
+    .section-menu {
+        height: 120vh;
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100vh);
+    }
+    .section-details {
+        height: 135vh;
     }
 }
